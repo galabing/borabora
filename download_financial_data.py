@@ -6,8 +6,13 @@ import re
 from os import environ, mkdir, path, remove, system
 from time import tzset
 
+# TODO: ih.advfn.com doesn't seem to have a throttle limit.  If it does,
+# the script needs to sleep between downloads.
+# TODO: Verify that the tickers that fail to download are indeed missing
+# from the website, not due to some formatting issue.
+
 WGET = '/usr/local/bin/wget'
-# TODO(lingyang): This value needs to be in sync with reality, maybe add a
+# TODO: This value needs to be in sync with reality, maybe add a
 # check during data download.
 START_STEP = 5  # step for istart_date
 
@@ -70,7 +75,7 @@ def check_and_get_page_count(page_path):
   hits = SELECT_DATE_PROG.findall(content[p:q])
   values = sorted([int(hit[0]) for hit in hits])
   assert all(values[i] == i for i in range(len(values)))
-  # TODO(lingyang): More verifications in page content?
+  # TODO: More verifications in page content?
   return values[-1] + 1
 
 def main():
@@ -107,6 +112,9 @@ def main():
 
     # Download the first page.
     first_page_path = download(ticker, 0, output_dir, args.overwrite)
+    if first_page_path is None:
+      logging.warning('Failed to download the first page for %s' % ticker)
+      continue
     page_count = check_and_get_page_count(first_page_path)
     logging.info('%s: %d pages of financial data' % (ticker, page_count))
 
@@ -114,7 +122,7 @@ def main():
     for start in range(START_STEP, page_count, START_STEP):
       logging.info('Downloading %s:%d' % (ticker, start))
       page_path = download(ticker, start, output_dir, args.overwrite)
-      # TODO(lingyang): Content verification.
+      # TODO: Content verification.
       assert page_path is not None
 
 if __name__ == '__main__':
