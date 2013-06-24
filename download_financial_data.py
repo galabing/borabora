@@ -7,7 +7,7 @@ from os import environ, mkdir, path, remove, system
 from time import tzset
 
 WGET = '/usr/local/bin/wget'
-# TODO(lingyang): This value need to be in sync with reality, maybe add a
+# TODO(lingyang): This value needs to be in sync with reality, maybe add a
 # check during data download.
 START_STEP = 5  # step for istart_date
 
