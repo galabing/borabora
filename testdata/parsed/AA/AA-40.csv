@@ -1,0 +1,281 @@
+quarter end date|2004/03|2004/06|2004/09|2004/12|2005/03
+date preliminary data loaded|2004-04-20|2004-07-08|2004-10-15|2005-02-22|2005-04-28
+earnings period indicator|Q|S|N|F|Q
+quarterly indicator|1|2|3|4|1
+basic earnings indicator|Y|Y|Y|Y|Y
+template indicator|||||
+preliminary full context ind|N|N|N|N|N
+projected fiscal year date|0000-00-00|0000-00-00|0000-00-00|0000-00-00|0000-00-00
+number of months last report period|3|3|3|3|3
+operating revenue|5,696.0|6,092.0|5,975.0|5,760.0|6,289.0
+total revenue|5,696.0|6,092.0|5,975.0|5,760.0|6,289.0
+adjustments to revenue|0.0|0.0|0.0|0.0|0.0
+cost of sales|4,436.0|4,805.0|4,787.0|4,629.0|4,978.0
+cost of sales with depreciation|4,438.0|4,807.0|4,787.0|4,631.0|4,981.0
+gross margin|1,260.0|1,287.0|1,188.0|1,131.0|1,311.0
+gross operating profit|1,260.0|1,287.0|1,188.0|1,131.0|1,311.0
+Research & Development (R&D;) Expense|45.0|43.0|44.0|50.0|46.0
+Selling, General & Administrative (SG&A;) Expense|344.0|319.0|315.0|310.0|333.0
+advertising|0.0|0.0|0.0|0.0|0.0
+operating income|0.0|0.0|0.0|0.0|0.0
+EBITDA|871.0|925.0|829.0|771.0|932.0
+depreciation|305.0|303.0|300.0|304.0|320.0
+depreciation (unrecognized)|303.0|301.0|300.0|302.0|317.0
+amortization|0.0|0.0|0.0|0.0|0.0
+amortization of intangibles|0.0|0.0|0.0|0.0|0.0
+operating profit after depreciation|566.0|622.0|529.0|467.0|612.0
+interest income|10.0|9.0|12.0|41.0|11.0
+earnings from equity interest|26.0|45.0|39.0|145.0|35.0
+other income net|-14.0|13.0|2.0|-118.0|-10.0
+income, acquired in process r&a;|0.0|0.0|0.0|0.0|0.0
+Income, Restructuring and M&A;|31.0|-5.0|-4.0|-1.0|-45.0
+other special charges|0.0|58.0|0.0|0.0|0.0
+special income charges|31.0|53.0|-4.0|-1.0|-45.0
+EBIT|619.0|742.0|578.0|534.0|603.0
+interest expense|64.0|69.0|67.0|70.0|78.0
+pre-tax income |555.0|673.0|511.0|464.0|525.0
+income taxes|155.0|196.0|142.0|64.0|192.0
+minority interest|50.0|73.0|71.0|51.0|60.0
+pref. securities of subsid. trust|0.0|0.0|0.0|0.0|0.0
+income before income taxes|555.0|673.0|511.0|464.0|525.0
+net income (continuing operations)|350.0|404.0|298.0|349.0|273.0
+net income (discontinued operations)|5.0|0.0|-15.0|-81.0|-13.0
+net income (total operations)|355.0|404.0|283.0|268.0|260.0
+extraordinary income/losses|0.0|0.0|0.0|0.0|0.0
+income from cum. effect of acct. change|0.0|0.0|0.0|0.0|0.0
+income from tax loss carryforward|0.0|0.0|0.0|0.0|0.0
+other gains/losses|0.0|0.0|0.0|0.0|0.0
+total net income|355.0|404.0|283.0|268.0|260.0
+normalized income|319.0|351.0|302.0|350.0|318.0
+net income available for common|350.0|404.0|297.0|347.0|273.0
+preferred dividends|0.0|0.0|1.0|2.0|0.0
+excise taxes|0.0|0.0|0.0|0.0|0.0
+Basic EPS (Continuing)|0.40|0.46|0.34|0.40|0.31
+Basic EPS (Discontinued)|0.01|0.00|-0.02|-0.10|-0.01
+Basic EPS from Total Operations|0.41|0.46|0.32|0.30|0.30
+Basic EPS (Extraordinary Items)|0.00|0.00|0.00|0.00|0.00
+Basic EPS (Cum. Effect of Acct. Change)|0.00|0.00|0.00|0.00|0.00
+Basic EPS (Tax Loss Carry Forward)|0.00|0.00|0.00|0.00|0.00
+Basic EPS (Other Gains/Losses)|0.00|0.00|0.00|0.00|0.00
+Basic EPS - Total|0.41|0.46|0.32|0.30|0.30
+Basic EPS - Normalized|0.36|0.40|0.34|0.40|0.36
+Diluted EPS (Continuing)|0.40|0.46|0.34|0.40|0.31
+Diluted EPS (Discontinued)|0.01|0.00|-0.02|-0.10|-0.01
+Diluted EPS from Total Operations|0.41|0.46|0.32|0.30|0.30
+Diluted EPS (Extraordinary)|0.00|0.00|0.00|0.00|0.00
+Diluted EPS (Cum. Effect of Acct. Change)|0.00|0.00|0.00|0.00|0.00
+Diluted EPS (Tax Loss Carry Forward)|0.00|0.00|0.00|0.00|0.00
+Diluted EPS (Other Gains/Losses)|0.00|0.00|0.00|0.00|0.00
+Diluted EPS - Total|0.41|0.46|0.32|0.30|0.30
+Diluted EPS - Normalized|0.36|0.40|0.34|0.40|0.36
+Dividends Paid Per Share (DPS)|0.15|0.15|0.15|0.15|0.15
+Revenue (YTD)|5,696.0|11,788.0|17,718.0|23,478.0|6,289.0
+Net Income from Total Operations (YTD)|355.0|759.0|1,042.0|1,310.0|260.0
+EPS from Total Operations (YTD)|0.41|0.87|1.19|1.49|0.30
+Dividends Paid Per Share (YTD)|0.15|0.30|0.45|0.60|0.15
+cash & equivalents|459.0|466.0|561.0|457.0|497.0
+restricted cash|0.0|0.0|0.0|0.0|0.0
+marketable securities|0.0|0.0|0.0|0.0|0.0
+accounts receivable|2,854.0|2,983.0|3,013.0|2,738.0|3,159.0
+loans receivable|0.0|0.0|0.0|0.0|0.0
+other receivable|275.0|296.0|224.0|261.0|263.0
+receivables|3,129.0|3,279.0|3,237.0|2,999.0|3,422.0
+inventories, raw materials|859.0|852.0|916.0|928.0|1,058.0
+inventories, work in progress|878.0|915.0|913.0|909.0|1,089.0
+inventories, purchased components|0.0|0.0|0.0|0.0|0.0
+inventories, finished goods|864.0|880.0|956.0|913.0|996.0
+inventories, other|215.0|208.0|210.0|218.0|227.0
+inventories, adjustments & allowances|0.0|0.0|0.0|0.0|0.0
+inventories|2,816.0|2,855.0|2,995.0|2,968.0|3,370.0
+prepaid expenses|656.0|643.0|779.0|790.0|944.0
+current defered income taxes|240.0|237.0|225.0|279.0|191.0
+other current assets|0.0|0.0|0.0|0.0|0.0
+total current assets|7,300.0|7,480.0|7,797.0|7,493.0|8,424.0
+land and improvements|0.0|0.0|0.0|462.0|0.0
+building and improvements|0.0|0.0|0.0|6,177.0|0.0
+machinery, furniture & equipment|0.0|0.0|0.0|18,004.0|0.0
+construction in progress|0.0|0.0|0.0|1,222.0|0.0
+other fixed assets|24,930.0|24,820.0|25,132.0|0.0|26,080.0
+total fixed assets|24,930.0|24,820.0|25,132.0|25,865.0|26,080.0
+gross fixed assets|24,930.0|24,820.0|25,132.0|25,865.0|26,080.0
+accumulated depreciation|12,459.0|12,580.0|12,880.0|13,273.0|13,345.0
+net fixed assets|12,471.0|12,240.0|12,252.0|12,592.0|12,735.0
+intangibles|6,567.0|6,553.0|6,575.0|6,541.0|6,574.0
+cost in excess|0.0|0.0|0.0|0.0|0.0
+non-current deferred income taxes|0.0|0.0|0.0|0.0|0.0
+other non-current assets|5,761.0|5,394.0|5,684.0|5,983.0|5,981.0
+total non-current assets|24,799.0|24,187.0|24,511.0|25,116.0|25,290.0
+total assets|32,099.0|31,667.0|32,308.0|32,609.0|33,714.0
+inventory valuation method|||||
+accounts payable|2,230.0|2,253.0|2,416.0|2,226.0|2,428.0
+notes payable|0.0|0.0|0.0|0.0|0.0
+short-term debt|528.0|552.0|541.0|954.0|1,962.0
+accrued expenses|0.0|0.0|0.0|0.0|0.0
+accrued liabilities|953.0|1,001.0|1,042.0|1,021.0|946.0
+deferred revenues|0.0|0.0|0.0|0.0|0.0
+current deferred income taxes|0.0|0.0|0.0|0.0|0.0
+other current liabilities|1,603.0|1,647.0|2,030.0|2,097.0|2,114.0
+total current liabilities|5,314.0|5,453.0|6,029.0|6,298.0|7,450.0
+long-term debt|6,782.0|6,329.0|6,108.0|5,346.0|5,267.0
+capital lease obligations|0.0|0.0|0.0|0.0|0.0
+deferred income taxes|851.0|743.0|790.0|790.0|886.0
+other non-current liabilities|5,501.0|5,569.0|5,464.0|5,459.0|5,539.0
+minority interest liability|1,357.0|1,298.0|1,362.0|1,416.0|1,169.0
+preferred secur. of subsid. trust|0.0|0.0|0.0|0.0|0.0
+preferred equity outside stock equity|0.0|0.0|0.0|0.0|0.0
+total non-current liabilities|14,491.0|13,939.0|13,724.0|13,011.0|12,861.0
+total liabilities|19,805.0|19,392.0|19,753.0|19,309.0|20,311.0
+preferred stock equity|55.0|55.0|55.0|55.0|55.0
+common stock equity|12,239.0|12,220.0|12,500.0|13,245.0|13,348.0
+common par|925.0|925.0|925.0|925.0|925.0
+additional paid-in capital|5,792.0|5,791.0|5,788.0|5,775.0|5,762.0
+cumulative translation adjustments|0.0|0.0|0.0|0.0|0.0
+retained earnings|8,074.0|8,347.0|8,367.0|8,636.0|8,765.0
+treasury stock|-1,986.0|-1,971.0|-1,956.0|-1,926.0|-1,887.0
+other equity adjustments|-566.0|-872.0|-624.0|-165.0|-217.0
+total capitalization|19,076.0|18,604.0|18,663.0|18,646.0|18,670.0
+total equity|12,294.0|12,275.0|12,555.0|13,300.0|13,403.0
+total liabilities & stock equity|32,099.0|31,667.0|32,308.0|32,609.0|33,714.0
+cash flow|2,359.0|2,545.0|2,551.0|2,520.0|2,439.0
+working capital|1,986.0|2,027.0|1,768.0|1,195.0|974.0
+free cash flow|-292.0|-193.0|233.0|411.0|-1,222.0
+invested capital|19,076.0|18,604.0|18,663.0|18,646.0|18,670.0
+shares out (common class only)|869.4|869.8|870.5|871.0|872.1
+preferred shares|0.5|0.5|0.5|0.5|0.5
+total ordinary shares|0.0|0.0|0.0|0.0|0.0
+total common shares out|869.4|869.8|870.5|871.0|872.1
+treasury shares|56.1|56.1|56.1|53.6|53.6
+basic weighted shares|869.0|870.0|870.0|869.9|871.0
+diluted weighted shares|879.0|877.0|877.0|877.4|879.0
+number of employees|||||
+number of part-time employees|||||
+net income/loss|355.0|759.0|1,042.0|1,310.0|260.0
+depreciation|305.0|608.0|908.0|1,212.0|320.0
+amortization|0.0|0.0|0.0|0.0|0.0
+amortization of intangibles|0.0|0.0|0.0|0.0|0.0
+deferred income taxes|-36.0|-59.0|-78.0|-95.0|38.0
+operating gains|-8.0|11.0|116.0|264.0|98.0
+extraordinary gains|0.0|0.0|0.0|0.0|0.0
+(increase) decrease in receivables|-282.0|-436.0|-358.0|-95.0|-501.0
+(increase) decrease in inventories|-300.0|-334.0|-458.0|-395.0|-370.0
+(increase) decrease in prepaid expenses|-51.0|-123.0|-135.0|-94.0|-52.0
+(increase) decrease in other current assets|0.0|0.0|0.0|0.0|0.0
+decrease (increase) in payables|168.0|180.0|406.0|122.0|97.0
+decrease (increase) in other current liabilities|31.0|97.0|173.0|61.0|-45.0
+decrease (increase) in other working capital|-11.0|-40.0|2.0|-240.0|-67.0
+other non-cash items|-101.0|-103.0|-211.0|148.0|0.0
+net cash from continuing operations|70.0|560.0|1,407.0|2,198.0|-222.0
+net cash from discontinued operations|0.0|0.0|0.0|1.0|-17.0
+net cash from total operating activities|70.0|560.0|1,407.0|2,199.0|-239.0
+sale of property, plant & equipment|309.0|355.0|355.0|392.0|0.0
+sale of long-term investments|0.0|0.0|0.0|0.0|0.0
+sale of short-term investments|0.0|5.0|20.0|30.0|206.0
+purchase of property, plant & equipment|-193.0|-413.0|-667.0|-1,143.0|-347.0
+acquisitions|0.0|0.0|0.0|-2.0|-433.0
+purchase of long-term investments|0.0|0.0|0.0|0.0|0.0
+purchase of  short-term investments|-38.0|-46.0|-50.0|-69.0|-5.0
+other investing changes, net|-7.0|-7.0|-6.0|-10.0|-5.0
+cash from discontinued investing activities|0.0|0.0|0.0|0.0|0.0
+net cash from investing activities|71.0|-106.0|-348.0|-802.0|-584.0
+issuance of debt|53.0|1,168.0|868.0|1,023.0|1,110.0
+issuance of capital stock|47.0|58.0|69.0|83.0|23.0
+repayment of long-term debt|-121.0|-1,380.0|-1,434.0|-1,921.0|-61.0
+repurchase of capital stock|-68.0|-68.0|-68.0|-67.0|0.0
+payment of cash dividends|-169.0|-340.0|-507.0|-643.0|-203.0
+other financing charges, net|0.0|0.0|0.0|0.0|0.0
+cash from discontinued financing activities|0.0|0.0|0.0|0.0|0.0
+net cash from financing activities|-258.0|-562.0|-1,072.0|-1,525.0|869.0
+effect exchange rate changes|0.0|-2.0|-2.0|9.0|-6.0
+net change in cash & equivalents|-117.0|-110.0|-15.0|-119.0|40.0
+cash at beginning of period|576.0|576.0|576.0|576.0|457.0
+cash end of period|459.0|466.0|561.0|457.0|497.0
+foreign sales|0.0|0.0|0.0|0.0|0.0
+domestic sales|0.0|0.0|0.0|0.0|0.0
+auditor name|||||
+auditor report|||||
+Close PE Ratio|26.3|21.7|22.2|21.1|22.0
+High PE Ratio|29.9|25.9|26.1|26.5|26.5
+Low PE Ratio|14.3|15.8|17.4|19.1|20.3
+gross profit margin|20.8|21.0|20.7|20.7|20.4
+pre-tax profit margin|8.4|9.4|9.4|9.4|9.0
+post-tax profit margin|5.4|6.0|5.9|6.0|5.5
+net profit margin|5.2|5.9|5.7|5.6|5.0
+interest coverage (cont. operations)|6.6|7.8|8.3|8.3|7.8
+interest as % of invested capital|1.5|1.5|1.5|1.4|1.5
+effective tax rate|24.2|25.4|26.7|25.3|27.3
+income per employee||||11008|
+Normalized Close PE Ratio|26.5|22.6|22.9|19.9|20.1
+Normalized High PE Ratio|30.1|27.0|26.8|25.0|24.2
+Normalized Low PE Ratio|14.4|16.4|17.9|18.0|18.5
+normalized net profit margin|5.1|5.6|5.5|5.9|5.5
+Normalized ROE|9.2|10.4|10.3|10.4|9.9
+Normalized ROA|3.5|4.0|4.0|4.2|3.9
+Normalized ROCI|5.9|6.8|6.9|7.4|7.1
+normalized income per employee||||11605|
+quick ratio|0.7|0.7|0.6|0.5|0.5
+current ratio|1.4|1.4|1.3|1.2|1.1
+payout ratio|45|39|40|40|43
+total debt/equity ratio|0.60|0.56|0.53|0.48|0.54
+long-term debt/total capital |0.36|0.34|0.33|0.29|0.28
+leverage ratio|2.6|2.6|2.6|2.5|2.5
+asset turnover|0.7|0.7|0.7|0.7|0.7
+cash as % of revenue|2.1|2.1|2.4|1.9|2.1
+receivables as % of revenue|14.2|14.5|13.9|12.8|14.2
+SG&A; as % of Revenue|6.1|5.8|5.7|5.5|5.3
+R&D; as % of Revenue|0.9|0.8|0.8|0.8|0.8
+revenue per $ cash|48.02|48.65|41.58|51.37|48.52
+revenue per $  plant (net)|1.77|1.85|1.90|1.86|1.89
+revenue per $ common equity|1.80|1.86|1.87|1.77|1.81
+revenue per $ invested capital|1.16|1.22|1.25|1.26|1.29
+receivables turnover|7.4|7.4|7.7|8.0|7.4
+inventory turnover|6.5|6.7|6.7|6.8|6.2
+receivables per day sales|51.11|52.06|49.96|45.99|51.08
+sales per $ receivables|7.04|6.91|7.21|7.83|7.05
+sales per $ inventory|7.83|7.94|7.79|7.91|7.16
+revenue/assets|0.7|0.7|0.7|0.7|0.7
+number of days cost of goods in inventory|55|54|54|53|58
+current assets per share|8.40|8.60|8.96|8.60|9.66
+total assets per share|36.92|36.41|37.12|37.44|38.66
+intangibles as % of book-value|53.7|53.6|52.6|49.4|49.3
+inventory as % of revenue|12.8|12.6|12.8|12.6|14.0
+long-term debt per share|7.80|7.28|7.02|6.14|6.04
+current liabilities per share|6.11|6.27|6.93|7.23|8.54
+cash per share|0.53|0.54|0.64|0.52|0.57
+LT-Debt to Equity Ratio|0.55|0.52|0.49|0.40|0.39
+LT-Debt as % of Invested Capital|35.6|34.0|32.7|28.7|28.2
+LT-Debt as % of Total Debt|34.2|32.6|30.9|27.7|25.9
+total debt as % total assets|61.7|61.2|61.1|59.2|60.2
+working captial as % of equity|16.2|16.6|14.1|9.0|7.3
+revenue per share|25.35|26.07|26.80|26.96|27.65
+book value per share|14.08|14.05|14.36|15.21|15.30
+tangible book value per share|6.52|6.52|6.81|7.70|7.77
+price/revenue ratio|1.37|1.27|1.25|1.17|1.10
+price/equity ratio|2.46|2.35|2.34|2.07|1.99
+price/tangible book ratio|5.32|5.07|4.93|4.08|3.91
+working capital as % of price|6.6|7.1|6.0|4.4|3.7
+working capital per share|2.28|2.33|2.03|1.37|1.12
+cash flow per share|2.71|2.93|2.93|2.89|2.80
+free cash flow per share|-0.34|-0.22|0.27|0.47|-1.40
+Return on Stock Equity (ROE)|9.3|10.9|10.7|9.9|9.1
+Return on Capital Invested (ROCI)|6.0|7.1|7.1|7.0|6.5
+Return on Assets (ROA)|3.6|4.2|4.1|4.0|3.6
+price/cash flow ratio|12.8|11.3|11.5|10.9|10.9
+price/free cash flow ratio|-102.0|-150.1|124.4|66.9|-21.7
+sales per employee||||197294|
+% of sales-to-industry|51.3|48.1|44.1|36.7|36.1
+% of earnings-to-industry|63.3|52.1|50.9|80.6|69.4
+% of EPS-to-Industry|100.8|84.0|83.4|146.1|130.2
+% of price-to-industry|124.6|127.8|116.5|113.4|123.1
+% of PE-to-Industry|123.7|152.3|139.7|77.7|94.5
+% of price/book-to-industry|152.8|164.3|136.8|119.7|117.8
+% of price/sales-to-industry|165.1|164.9|166.7|172.1|193.0
+% of price/cashflow-to-industry|157.6|162.2|158.5|120.8|142.4
+% of pric/free cashlow-to-industry|208.9|186.0|0.0|-19.3|95.8
+% of debt/equity-to-industry|75.3|80.0|63.6|60.6|54.9
+% of current ratio-to-industry|107.7|107.7|100.0|109.1|84.6
+% of gross profit margin-to-industry|97.2|96.8|99.0|104.5|103.6
+% of pre-tax profit margin-to-industry|120.0|117.5|125.3|184.3|169.8
+% of post-tax profit margin-to-industry|117.4|111.1|118.0|240.0|211.5
+% of net profit margin-to-industry|123.8|109.3|116.3|224.0|192.3
+% of ROE-to-Industry|113.4|109.0|94.7|152.3|116.7
+% of leverage-to-industry|86.7|92.9|83.9|75.8|75.8
