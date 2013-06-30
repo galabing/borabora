@@ -18,6 +18,11 @@ START_STEP = 5  # step for istart_date
 
 # Patterns for analyzing the downloaded pages.
 NO_DATA = 'No financial data available from this page.'
+# The table of financial data must be present, which is located in between
+# this prefix and suffix.
+TABLE_PREFIX = ("<table border='0' bgColor='ffffff' cellspacing='1'"
+                " cellpadding='2' width='705'  align='left' >")
+TABLE_SUFFIX = '</table>'
 SELECT_PREFIX = "<select id='istart_dateid' name='istart_date'"
 SELECT_SUFFIX = '</select>'
 # Eg,
@@ -50,6 +55,23 @@ def download(ticker, start, output_dir, overwrite):
     return None
   return output_path
 
+def check_and_get_page_content(page_path):
+  assert path.isfile(page_path)
+  with open(page_path, 'r') as fp:
+    content = fp.read()
+  if not content.endswith('</html>\n'):
+    logging.warning('File does not end with </html>: %s' % page_path)
+    return None
+  if content.find(NO_DATA) >= 0:
+    logging.warning('File contains "%s": %s' % (NO_DATA, page_path))
+    return None
+  p = content.find(TABLE_PREFIX)
+  q = content.find(TABLE_SUFFIX, p)
+  if p < 0 or q < 0:
+    logging.warning('File contains no financial data: %s' % page_path)
+    return None
+  return content
+
 def check_and_get_page_count(page_path):
   """ Checks the downloaded page is valid and extracts the page count for
       the corresponding ticker.
@@ -57,11 +79,8 @@ def check_and_get_page_count(page_path):
       If the downloaded page is invalid, the file is cleared upon return.
       Returns the page count, or 0 if the downloaded page is invalid.
   """
-  assert path.isfile(page_path)
-  with open(page_path, 'r') as fp:
-    content = fp.read()
-  if content.find(NO_DATA) >= 0:
-    logging.warning('File contains "%s": %s' % (NO_DATA, page_path))
+  content = check_and_get_page_content(page_path)
+  if content is None:
     remove(page_path)
     return 0
   p = content.find(SELECT_PREFIX)
@@ -122,8 +141,7 @@ def main():
     for start in range(START_STEP, page_count, START_STEP):
       logging.info('Downloading %s:%d' % (ticker, start))
       page_path = download(ticker, start, output_dir, args.overwrite)
-      # TODO: Content verification.
-      assert page_path is not None
+      assert check_and_get_page_content(page_path) is not None
 
 if __name__ == '__main__':
   main()
