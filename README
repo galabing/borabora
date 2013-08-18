@@ -1,0 +1,9 @@
+TODO: Make README readable.
+
+Run order:
+- download_financial_data
+- parse
+- merge
+- select
+- interpolate
+
