@@ -1,5 +1,9 @@
 #!/usr/local/bin/python3
 
+""" Merges multiple csv files of financial data per ticker (from different time
+    intervals) into one.
+"""
+
 import argparse
 import logging
 from os import environ, path

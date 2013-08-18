@@ -1,5 +1,8 @@
 #!/usr/local/bin/python3
 
+""" Downloads webpages of financial data from ih.advfn.com.
+"""
+
 import argparse
 import logging
 import re

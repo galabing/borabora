@@ -1,5 +1,8 @@
 #!/usr/local/bin/python3
 
+""" Parses the table of financial data from webpages into csv files.
+"""
+
 import argparse
 import logging
 from bs4 import BeautifulSoup
@@ -11,13 +14,13 @@ TABLE_PREFIX = ("<table border='0' bgColor='ffffff' cellspacing='1'"
                 " cellpadding='2' width='705'  align='left' >")
 TABLE_SUFFIX = '</table>'
 
-# We use the value of bgcolor to identical rows with financial data.
+# We use the value of bgcolor to identify rows with financial data.
 # Currently the rows of financial data interleave with two background colors.
 DATA_BGCOLORS = set(['#f0f0E7', '#e5e5f3'])
 # As a sanity check, we also keep track of non-financial data rows,
 # all of which should be headers.
 HEADER_BGCOLORS = set(['#6566a3', '#aaaad3'])
-# For more sanity, we also the parsed headers against an expected set.
+# For more sanity, we also check the parsed headers against an expected set.
 HEADERS = set(['INDICATORS', 'INCOME STATEMENT', '*',
                'INCOME STATEMENT (YEAR-TO-DATE)', 'BALANCE SHEET', 'ASSETS',
                'EQUITY & LIABILITIES', 'CASH-FLOW STATEMENT',
@@ -39,7 +42,7 @@ def stringify(v):
   """ A helper method to convert None to '', leaving non-None strings unchanged.
   """
   if v is None: return ''
-  return v
+  return str(v)
 
 def parse(input_path, output_path):
   """ Parses the raw html file and produces a csv file of financial data.
