@@ -35,6 +35,10 @@ SELECT_DATE_PATTERN = ("<option\s+value='(?P<value>\d+)'(|\s+selected)>"
                        "\d{4}/\d{2}</option>")
 SELECT_DATE_PROG = re.compile(SELECT_DATE_PATTERN)
 
+# TODO: FINL is skipped because of a latin char in the webpage, which caused
+# fp.read() to throw exceptions.  This should be fixable.
+SKIPPED_TICKERS = {'FINL'}
+
 def download(ticker, start, output_dir, overwrite):
   """ Downloads one page of financial data for the specified ticker,
       writes the file to the specified dir; skips downloading if the
@@ -125,6 +129,10 @@ def main():
   for i in range(len(tickers)):
     ticker = tickers[i]
     logging.info('%d/%d: %s' % (i+1, len(tickers), ticker))
+
+    if ticker in SKIPPED_TICKERS:
+      logging.warning('Ticker %s is in the skipped set' % ticker)
+      continue
 
     output_dir = '%s/%s' % (args.output_dir, ticker)
     if path.isdir(output_dir):
